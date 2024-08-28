@@ -46,8 +46,8 @@ class ContaPoupanca{
     /**
     * @return DateTime
     */
-    public function getDataDeAniversario(): DateTime {
-    	return $this->dataDeAniversario;
+    public function getDataDeAniversario(){
+    	return $this->dataDeAniversario->format('d/m/Y');
     }
 
     /**

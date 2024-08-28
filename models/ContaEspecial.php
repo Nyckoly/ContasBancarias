@@ -45,7 +45,7 @@ class ContaEspecial{
     /**
     * @return float
     */
-    public function getSaldo(): float {
+    public function getSaldo(){
     	return number_format($this->saldo,2);
     }
 
@@ -59,7 +59,7 @@ class ContaEspecial{
     /**
     * @return float
     */
-    public function getLimite(): float {
+    public function getLimite(){
     	return number_format($this->limite,2);
     }
 
